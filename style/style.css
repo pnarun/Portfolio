@@ -11,12 +11,29 @@
 /* hero background image */
 .bgimage {
     height: 100vh;
-    background: url('../images/ArunPNwithSuite1.jpg');
+    background: url('../images/ArunPNwithWorksetup.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
     padding: 0;
     margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .bgimage {
+        height: 100vh;
+        background: url('../images/ArunPNwithSuiteFull.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero_text {
+        top: 5%;
+        left: 50%;
+    }
 }
 
 /* text css above hero image*/
